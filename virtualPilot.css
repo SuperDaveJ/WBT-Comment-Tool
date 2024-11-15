@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #000000;
+}
+.oneColElsCtr #container {
+	width: 90%;
+	background: #FFFFFF;
+	margin: 0 auto;
+	border: none;
+	text-align: left;
+}
+.oneColElsCtr #mainContent {
+	padding: 0 20px;
+}
+
+h2 {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 1.5em;
+	color : #000000;
+	margin-top : 10px;
+	margin-bottom : 10px;
+	text-align: center;
+}
+
+h3 {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 1.2em;
+	font-weight: bold
+	color : #000000;
+	margin: 10px 0;
+	text-align: left;
+}
+
+p {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 0.9em;
+	color : #000000;
+	margin-top : 5px;
+	margin-bottom : 3px;
+}
+
+th {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 0.75em;
+	font-weight: bold;
+	color : #000000;
+}
+
+td {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 0.8em;
+	color : #000000;
+}
+
+td.even {
+	background-color:#CCCCCC;
+}
+
+td.odd {
+	background-color:#FFFFFF;
+}
+
+li {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 0.9em;
+	color : #000000;
+}
+
+.question {
+	position: relative;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.distracter {
+	margin-left: 20px;
+	font-size: 0.9em;
+}
+
+#submit {
+	width: 80%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.textEntry {
+ 	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:0.9em;
+}

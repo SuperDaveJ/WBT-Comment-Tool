@@ -1,0 +1,11 @@
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+
+Sub Session_OnStart    '  Runs the first time a user runs any page in your application
+	Session("strConnectSQL") = "Provider=SQLOLEDB;Data Source=OKCOK06SQC01;Initial Catalog=PilotEvalTool;User ID=PrivateWebUserS;Password=L3tm31nn0w!;"
+END Sub
+
+Sub Session_OnEnd    '   Runs when a user's session times out or quits your application
+	Session("strConnectSQL") = ""
+END Sub
+
+</SCRIPT>
